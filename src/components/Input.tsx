@@ -1,7 +1,7 @@
 import React from "react";
 import { Input as NativeBaseInput, IInputProps } from "native-base";
 
-export default function Input({...rest}: IInputProps) {
+export function Input({...rest}: IInputProps) {
   return (
     <NativeBaseInput
       bg="gray.700"
